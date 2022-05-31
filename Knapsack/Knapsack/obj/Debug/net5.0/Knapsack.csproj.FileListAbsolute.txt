@@ -15,4 +15,3 @@ C:\Users\pc\Desktop\NAI-Knapsack\NAI_Knapsack\Knapsack\Knapsack\obj\Debug\net5.0
 C:\Users\pc\Desktop\NAI-Knapsack\NAI_Knapsack\Knapsack\Knapsack\obj\Debug\net5.0\Knapsack.genruntimeconfig.cache
 C:\Users\pc\Desktop\NAI-Knapsack\NAI_Knapsack\Knapsack\Knapsack\obj\Debug\net5.0\ref\Knapsack.dll
 C:\Users\pc\Desktop\NAI-Knapsack\NAI_Knapsack\Knapsack\Knapsack\bin\Debug\net5.0\12.txt
-C:\Users\pc\Desktop\NAI-Knapsack\NAI_Knapsack\Knapsack\Knapsack\bin\Debug\net5.0\TmpTestFile.txt

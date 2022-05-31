@@ -33,6 +33,7 @@ namespace Knapsack
             TotalValueOfItemsInKnapsack;
 
         private static readonly Stopwatch Stopwatch = new();
+
         private static async Task Main(string[] args)
         {
             if (args.Length <= 0)
@@ -66,6 +67,7 @@ namespace Knapsack
 
         public static TimeSpan Brute_force()
         {
+            Console.WriteLine("Working...");
             Stopwatch.Start();
             NumberOfAllSolutions = Math.Pow(2, Items.Count);
             for (var i = 0; i < NumberOfAllSolutions; i++)
@@ -84,9 +86,10 @@ namespace Knapsack
             }
 
             var timeSpan = Stopwatch.Elapsed;
+            Stopwatch.Stop();
             return timeSpan;
         }
-        
+
         public static List<int> ConvertToBinary(int i)
         {
             var result = new List<int>();
@@ -132,15 +135,15 @@ namespace Knapsack
 
         public static void DisplaySummary(TimeSpan timeSpan)
         {
-            Stopwatch.Stop();
+            Console.Clear();
             Console.WriteLine("Program stopped after: {0:00}:{1:00}:{2:00}", timeSpan.Minutes, timeSpan.Seconds,
                 timeSpan.Milliseconds);
             Console.WriteLine(
                 $"Total number of solutions: {NumberOfAllSolutions}\nNumber of feasible solutions: {NumberOfFeasibleSolutions}");
             Console.WriteLine("**************************************");
             Console.WriteLine(
-                $"Knapsack capacity: {Capacity}\nTotal weight of elements in Knapsack: {TotalWeightOfItemsInKnapsack}" +
-                $"\nTotal value of elements in Knapsack: {TotalValueOfItemsInKnapsack}\nFinal characteristic vector: {String.Join(",", CharacteristicVector)}");
+                $"Optimal Solution: \nKnapsack capacity: {Capacity}\nTotal weight of elements in Knapsack: {TotalWeightOfItemsInKnapsack}" +
+                $"\nTotal value of elements in Knapsack: {TotalValueOfItemsInKnapsack}\nFinal characteristic vector: {string.Join(",", CharacteristicVector)}");
         }
     }
 }
