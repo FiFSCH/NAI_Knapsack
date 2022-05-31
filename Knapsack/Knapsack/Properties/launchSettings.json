@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Knapsack": {
+      "commandName": "Project",
+      "commandLineArgs": "./12.txt"
+    }
+  }
+}
