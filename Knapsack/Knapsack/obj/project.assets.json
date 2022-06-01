@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Desktop\\NAI-Knapsack\\NAI_Knapsack\\Knapsack\\Knapsack\\Knapsack.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\Desktop\\PJATK\\NAI\\NAI-Knapsack\\NAI_Knapsack\\Knapsack\\Knapsack\\Knapsack.csproj",
       "projectName": "Knapsack",
-      "projectPath": "C:\\Users\\pc\\Desktop\\NAI-Knapsack\\NAI_Knapsack\\Knapsack\\Knapsack\\Knapsack.csproj",
+      "projectPath": "C:\\Users\\pc\\Desktop\\PJATK\\NAI\\NAI-Knapsack\\NAI_Knapsack\\Knapsack\\Knapsack\\Knapsack.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\Desktop\\NAI-Knapsack\\NAI_Knapsack\\Knapsack\\Knapsack\\obj\\",
+      "outputPath": "C:\\Users\\pc\\Desktop\\PJATK\\NAI\\NAI-Knapsack\\NAI_Knapsack\\Knapsack\\Knapsack\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -105,31 +105,29 @@ namespace Knapsack
 
         public static bool CheckFeasibility(List<int> binaryValues)
         {
-            var totalWeight = 0;
+            CurrentWeight = 0;
             var i = 0;
             foreach (var item in Items)
             {
                 if (binaryValues.ElementAtOrDefault(i) == 1)
-                    totalWeight += item.Weight;
+                    CurrentWeight += item.Weight;
                 i++;
             }
 
-            CurrentWeight = totalWeight;
             return Capacity >= CurrentWeight;
         }
 
         public static bool CheckOptimality(List<int> binaryValues)
         {
-            var totalValue = 0;
+            CurrentValue = 0;
             var i = 0;
             foreach (var item in Items)
             {
                 if (binaryValues.ElementAtOrDefault(i) == 1)
-                    totalValue += item.Value;
+                    CurrentValue += item.Value;
                 i++;
             }
 
-            CurrentValue = totalValue;
             return CurrentValue >= TotalValueOfItemsInKnapsack;
         }
 
